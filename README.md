@@ -1,5 +1,7 @@
 # dev_cakephp
 
+メモ
+
 - デフォルト設置場所 & 共通設置場所
 ```    
 (Path):/var/www/cakephp/app/webroot/css/cake.generic.css
