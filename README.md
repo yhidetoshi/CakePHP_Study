@@ -4,7 +4,55 @@
 
 書いたソースコードはBitbucketのプライベート環境に保存
 
-メモ
+CakePHP/PHP/Javascript/HTML/MySQL等を使って途中まで開発
+**[開発環境]**
+```
+- 環境
+    - サーバ(All in One) 
+        - さくらVPS
+             - Centos6.7
+        - Nginx(1.8)
+        - Mysql(5.6)
+             - phpMyAdmin
+        - (MongoDB インストールしてあるだけ)
+    - DNS(レコード管理)
+        - AWS_Route53
+    - Domain         
+        - お名前.com
+             - xxxxx
+             - サブドメイン
+                  - xxxxx   
+    - 監視
+        - リソース
+             - NewRelic
+
+- 開発
+    - PHP(5.6)
+    - JavaScript
+    - Framework
+        - CakePHP(2.7.7)
+    - Git
+        - branch
+             - master
+             - redev(開発中)
+
+- サーバへの接続    
+    - port(allow_any)
+        - 443
+             letsencrypt
+        - 22
+             - ssh
+                  - 公開鍵認証
+                  - rootログイン禁止
+             - sftp
+                  - Cyberduck
+```
+
+
+
+
+
+CakePHPのメモ
 
 - デフォルト設置場所 & 共通設置場所
 ```    
