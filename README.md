@@ -1,3 +1,5 @@
+![Alt Text](https://github.com/yhidetoshi/Pictures/raw/master/CakePHP_Study/cakephp-icon.jpeg)
+
 # dev_cakephp
 
 書いたソースコードはBitbucketのプライベート環境に保存
